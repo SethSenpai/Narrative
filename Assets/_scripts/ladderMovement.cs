@@ -28,7 +28,7 @@ public class ladderMovement : MonoBehaviour {
     {
         if (Input.GetAxis("Vertical") > 0)
         {
-            Debug.Log("MEEEEP");
+            //Debug.Log("MEEEEP");
             transform.GetComponent<Rigidbody>().useGravity = false;
             transform.Translate(new Vector3(0, 1, 0) * Time.deltaTime * speed);
         }

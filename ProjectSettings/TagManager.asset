@@ -6,6 +6,7 @@ TagManager:
   tags:
   - PhysicsObject
   - Ladder
+  - noStandZone
   layers:
   - Default
   - TransparentFX
