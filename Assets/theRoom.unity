@@ -4121,19 +4121,6 @@ CanvasRenderer:
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
   m_PrefabInternal: {fileID: 1264093753}
---- !u!114 &1212562854
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1212562853}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1153b8e7d3a6424db4a8e2dd8bc948b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 1
-  canClimb: 0
 --- !u!114 &1212562859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4147,7 +4134,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerCam: {fileID: 987003865}
   crouchHeight: 0.5
-  canStand: 0
+  crouchSpeed: 2
+--- !u!114 &1212562860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1212562853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1153b8e7d3a6424db4a8e2dd8bc948b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  canClimb: 0
 --- !u!1 &1221777712
 GameObject:
   m_ObjectHideFlags: 0
@@ -4376,7 +4376,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 14300000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_Radius
-      value: 0.3
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalPosition.y
@@ -5036,7 +5036,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1523975551}
   - component: {fileID: 1523975552}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: triggerLadder (1)
   m_TagString: Ladder
   m_Icon: {fileID: 0}
@@ -5050,7 +5050,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1523975550}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.911, z: -6.371}
+  m_LocalPosition: {x: 0, y: -0.94, z: -6.371}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 485819893}
@@ -5066,7 +5066,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.63, y: 2.1, z: 0.29}
+  m_Size: {x: 0.63, y: 2.3, z: 0.45}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1526984043
 GameObject:
@@ -6251,7 +6251,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1815584367}
   - component: {fileID: 1815584368}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: nostandZone
   m_TagString: noStandZone
   m_Icon: {fileID: 0}
@@ -6905,7 +6905,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2058515983}
   - component: {fileID: 2058515984}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: triggerLadder
   m_TagString: Ladder
   m_Icon: {fileID: 0}
@@ -6919,7 +6919,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2058515982}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.911, z: 6.371}
+  m_LocalPosition: {x: 0, y: -0.94, z: 6.371}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 485819893}
@@ -6935,7 +6935,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.63, y: 2.1, z: 0.29}
+  m_Size: {x: 0.63, y: 2.3, z: 0.45}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2081478057
 GameObject:

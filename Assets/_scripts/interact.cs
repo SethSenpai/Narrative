@@ -19,7 +19,8 @@ public class interact : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         //Debug.Log(Input.GetAxis(inputButton));
-        int layerMask = 1;
+        int layerMask = 1 << 2;
+        layerMask = ~layerMask;
         //clicked to hold something new since we didnt hold anything previously
 		if(holding == false && Input.GetAxis(inputButton) > 0)
         {
