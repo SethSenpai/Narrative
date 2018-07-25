@@ -20,7 +20,7 @@ public class BreakableObject:MonoBehaviour{
 	bool broken; 									//Determines if the object has been broken or not 
 	
 	public void OnCollisionEnter(Collision collision) {
-	    if (collision.relativeVelocity.magnitude > durability) {
+        if (collision.relativeVelocity.magnitude > durability && collision.other.name.StartsWith("squareWindowFragment40") == false) {
 	        triggerBreak();
 	    }
 	}
