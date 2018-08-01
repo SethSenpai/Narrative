@@ -1,0 +1,23 @@
+<addChar:pok3r_placeholder:f_sad:1:-0.7:-14:-0.7:slide:10,setBg:3,setMusic:Fond_memories,setTit:#>
+Pok3r-san is nice. Maybe she’s too nice? She grew up down the street from MC-kun and they both played together when they were younger. She hasn’t really seen or talked to the MC since these years, but it’s definitely nice seeing a face you haven’t seen for a long time. 
+
+|<setFace:pok3r_placeholder:f_smile,moveChar:pok3r_placeholder:-2:-0.7:10,setMusic:Golden_week,setTit:Pok3r>
+Pok3r-san is always easy to talk to, and always willing to listen. She doesn’t stand out in class, but she isn’t invisible either. She’s your ever-so friendly and nice classmate. She started her school year here, but was ecstatic to see her childhood friend transfer to the same class she is in.
+
+|<setBg:1,setLight:0.45,setMusic:Fond_memories>
+Her best friend is the ever-so-shy 660m-san who she affectionately calls M-chan. While shy and reserved, Pok3r-san isn’t scared to fill it the gaps of the conversation. They’ve been best friends since Jr. High and still continue a strong friendship. 660m often has troubles trying to express what she wants, but Pok3r-san is always there to give her the push she needs to say what she needs to say. Often times, Pok3r-san already know what 660m-san wants to say, but still gives her the chance to work on being braver and voicing her opinions.
+
+|<remChar:pok3r_placeholder:-14:-0.7:slide:10>
+“Sweet,” is probably one of the best words that describe her. Down to Earth and caring, Pok3r-san. On the outside, everything seems so wonderful. The truth is life is difficult. Pok3r-san helps her parents pay for her tuition by working two jobs to help make ends meet. While her friends are going out for karaoke, she’s working, studying, or trying to further her passion as an artist. She’s constantly balancing all of these things going on in her life. It’s not easy, but accomplishing your dreams isn’t always going to be easy.
+
+|<>
+Calm and collected. That’s how 660m-san looks on the surface. Inside she’s actually a tangled mess of worries, anxieties, and fears. While she doesn’t like she has to rely on Pok3r-san a lot for help, she is really appreciative that Pok3r-san has been her close friend for so long. 660m-san really does feel that she’s a burden on the friendship. Pok3r-san is always standing up for her and helping her express her thoughts. 
+
+|<>
+Easily flustered, 660m often has to plan her social interactions ahead of time. Always worried  about inconveniencing people, she has a very meek personality. 660m wants to be strong, but finds it easier to be shy than to stand up. Growing up was tough for her. There are spots on her body no one else sees. Darkened spots. Sore spots. Rough spots. Spots that taught her it’s easier to stay quiet. Out of mind and hopefully out of sight. “Maybe if I was a better daughter I wouldn’t have to hurt anymore”.
+
+|<>
+660m-san is often found in the library when she’s not with Pok3r-san. Buried in books, she stays as long as she can. Eventually the librarian will ask her to leave, and it’s at that point she sighs, picks up her bag, and slowly walks home. When she walks home, she always tries her best to make the walk home longer and longer but she always makes it back.
+
+|<>
+It’s common that on some days 660m-san wakes up sore. Her body feeling used. She goes to the bathroom and throws on another smile for another day. On the side of town 660m lives, there’s a large hill she climbs every day to get to school. She always meets Pok3r-san at the gates but one day it would be nice to have someone walk up that hill with her.
