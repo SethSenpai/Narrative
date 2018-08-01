@@ -403,6 +403,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 400042}
+  - component: {fileID: 114779609480384514}
   m_Layer: 0
   m_Name: fragments
   m_TagString: Untagged
@@ -2148,3 +2149,14 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 100000}
   m_IsPrefabParent: 1
+--- !u!114 &114779609480384514
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2adb3f1d65be58a4486c8b4873e03bf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

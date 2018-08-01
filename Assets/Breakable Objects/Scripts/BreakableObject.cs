@@ -10,7 +10,7 @@ using System.Collections;
 public class BreakableObject:MonoBehaviour{
 	public Transform fragments; 					//Place the fractured object
 	public float waitForRemoveCollider = 1.0f; 		//Delay before removing collider (negative/zero = never)
-	public float waitForRemoveRigid = 10.0f; 		//Delay before removing rigidbody (negative/zero = never)
+	public float waitForRemoveRigid = 3.0f; 		//Delay before removing rigidbody (negative/zero = never)
 	public float waitForDestroy = 2.0f; 			//Delay before removing objects (negative/zero = never)
 	public float explosiveForce = 350.0f; 			//How much random force applied to each fragment
 	public float durability = 5.0f; 				//How much physical force the object can handle before it breaks
@@ -73,7 +73,8 @@ public class BreakableObject:MonoBehaviour{
 	        	foreach(Transform child in transform) {
 	   					child.gameObject.SetActive(false);
 				}
-	        	yield return new WaitForSeconds(1.0f);
+	        	yield return new WaitForSeconds(10.0f);
+                //Debug.Log("I fucking die");
 	            GameObject.Destroy(transform.gameObject);
 	        }	
 	    }
@@ -82,6 +83,7 @@ public class BreakableObject:MonoBehaviour{
 	public IEnumerator removeRigids() {// removes rigidbodies from fragments after "waitForRemoveRigid" delay
 	    if (waitForRemoveRigid > 0 && waitForRemoveRigid != waitForDestroy) {
 	        yield return new WaitForSeconds(waitForRemoveRigid);
+            //Debug.Log("destroy rigid");
 	        foreach(Transform child in fragmentd.FindChild("fragments")) {
 	            child.GetComponent<Rigidbody>().isKinematic = true;
 	        }

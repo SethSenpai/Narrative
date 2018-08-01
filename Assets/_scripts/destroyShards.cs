@@ -4,17 +4,23 @@ using UnityEngine;
 
 public class destroyShards : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		if(transform.position.y < -1)
+    private Vector3 oldposition;
+
+    // Use this for initialization
+    void Start() {
+
+    }
+
+    // Update is called once per frame
+    void FixedUpdate() {
+        foreach (Transform child in transform)
         {
-            Debug.Log("destroy shard");
-            Destroy(gameObject);
+            if (float.IsNaN(child.position.x) || float.IsNaN(child.position.y) || float.IsNaN(child.position.z))
+            {
+                Destroy(child.gameObject);
+                //Debug.Log("isNaN");
+            }
         }
-	}
+    }
+
 }
